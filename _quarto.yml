@@ -2,15 +2,15 @@ project:
   type: website
 
 website:
-  title: "Real World Data Science"
+  title: "Mikkel Roald-Arbøl"
   image: images/rwds-logo-150px.png
   favicon: images/rwds-favicon.png
   twitter-card:
-    site: "@rwdatasci"
+    site: "@roaldarbol"
   open-graph: true
-  site-url: https://realworlddatascience.net/
-  repo-url: https://github.com/realworlddatascience/realworlddatascience.github.io
-  repo-actions: [edit, issue]
+  site-url: https://roald-arboel.com
+  repo-url: https://github.com/roaldarbol/quarto-website
+  repo-actions: [issue]
   body-footer: |
     <!-- 100% privacy-first analytics -->
     <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
@@ -19,62 +19,32 @@ website:
     toggle-position: right
     background: "#f0eeeb"
     logo: images/rwds-logo-150px.png
-    logo-alt: "Real World Data Science brand"
+    logo-alt: "Mikkel Roald-Arbøl"
     title: false
     collapse-below: lg
     right:
-      - case-studies/index.qmd
-      - ideas/index.qmd
-      - careers/index.qmd
-      - viewpoints/index.qmd
-      - text: "About RWDS"
-        menu: 
+      - research/index.qmd
+      - blog/index.qmd
+      - text: "About"
+        menu:
         - text: "Who we are"
-          href: about-rwds.qmd
-        - text: "How to contribute"
-          href: contributor-docs/call-for-contributions.qmd
-        - text: "Code of conduct"
-          href: CODE_OF_CONDUCT.md
-        - text: "Contact us"
+          href: about.qmd
+        - text: "Contact me"
           href: contact.qmd
-  sidebar: 
-    - title: "About us"
+  sidebar:
+    - title: "About"
       contents:
-        - about-rwds.qmd
-        - viewpoints/editors-blog/posts/2022/10/18/meet-the-team.qmd
-        - rwds-partners.qmd
+        - about.qmd
         - contact.qmd
         - ts-and-cs.qmd
-        - CODE_OF_CONDUCT.md
         - LICENCE.md
-    - title: "Call for contributions"
+    - title: "Research"
       contents:
-        - contributor-docs/call-for-contributions.qmd
-        - contributor-docs/case-studies.qmd
-        - contributor-docs/explainers.qmd
-        - contributor-docs/exercises.qmd
-        - contributor-docs/datasets.qmd
-        - contributor-docs/training-guides.qmd
-        - contributor-docs/recommender.qmd
-        - contributor-docs/datasciencebites.qmd
-        - contributor-docs/contributor-guidelines.qmd
-        - contributor-docs/style-guide.qmd
-    - title: "Careers"
+        - research/index.qmd
+    - title: "Blog"
       contents:
-        - careers/index.qmd
-        - careers/career-profiles/index.qmd
-    - title: "Ideas"
-      contents:
-        - ideas/index.qmd
-        - ideas/tutorials/index.qmd
-        - ideas/datasciencebites/index.qmd
-    - title: "Viewpoints"
-      contents: 
-        - viewpoints/index.qmd
-        - viewpoints/editors-blog/index.qmd
-        - viewpoints/interviews/index.qmd
-        - href: viewpoints/newsletter/index.qmd
-          text: Newsletter
+        - blog/index.qmd
+
 
   page-navigation: true
 
@@ -83,29 +53,29 @@ website:
   page-footer:
     background: "#000000"
     left: |
-      [Copyright &copy; 2024 Royal Statistical Society](/LICENCE.md)
+      [Copyright &copy; 2024 Mikkel Roald-Arbøl](/LICENCE.md)
     center:
-      - href: https://github.com/realworlddatascience
+      - href: https://github.com/roaldarbol
         icon: github
         aria-label: GitHub
-      - href: https://zenodo.org/communities/realworlddatascience
-        text: "{{< ai zenodo size=2xl >}}"
-        aria-label: RWDS Zenodo community
+      # - href: https://zenodo.org/communities/realworlddatascience
+      #   text: "{{< ai zenodo size=2xl >}}"
+      #   aria-label: RWDS Zenodo community
+      # - href: https://orcid.org/0000-0002-9998-0058
+      #   icon: orcid
+      #   aria-label: Orcid
       - href: https://www.linkedin.com/showcase/rss-real-world-data-science
         icon: linkedin
         aria-label: LinkedIn
-      - href: https://twitter.com/rwdatasci
+      - href: https://twitter.com/roaldarbol
         icon: twitter-x
         aria-label: Twitter/X
-      - href: https://fosstodon.org/@rwdatasci
+      - href: https://neuromatch.social/@roaldarboel
         icon: mastodon
         aria-label: Mastodon
       - href: feeds.html
         icon: rss
-        aria-label: RWDS rss
-
-    right: |
-      [Terms & Conditions](/ts-and-cs.qmd)
+        aria-label: MRA rss
 
 format:
   html:
@@ -117,5 +87,5 @@ format:
       body-width: 1000px
       margin-width: 250px
 
-execute: 
+execute:
   freeze: auto

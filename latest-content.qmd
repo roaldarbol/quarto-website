@@ -1,17 +1,15 @@
 ---
-pagetitle: Latest content | Real World Data Science
+pagetitle: Latest content | Mikkel Roald-Arbøl
 title: Latest content
-subtitle: A panoramic view of Real World Data Science 
+# subtitle: 
 title-block-banner: true
 sidebar: false
 search: false
 page-layout: article  
 listing:
   contents: 
-  - /case-studies
-  - /ideas
-  - /careers
-  - /viewpoints
+  - /research
+  - /blog
   - "!index.qmd"
   sort: "date desc"
   type: grid

@@ -6,17 +6,11 @@ toc: false
 title-block-banner: true
 ---
 ### Latest content
-[realworlddatascience.net/latest-content.xml](https://realworlddatascience.net/latest-content.xml)
+[roald-arboel.com/latest-content.xml](https://roald-arboel.com/latest-content.xml)
 
-### Case studies
-[realworlddatascience.net/case-studies/index.xml](https://realworlddatascience.net/case-studies/index.xml)
+### Research
+[roald-arboel.com/research/index.xml](https://roald-arboel.com/research/index.xml)
 
-### Ideas
-[realworlddatascience.net/ideas/index.xml](https://realworlddatascience.net/ideas/index.xml)
-
-### Careers
-[realworlddatascience.net/careers/index.xml](https://realworlddatascience.net/careers/index.xml)
-
-### Viewpoints
-[realworlddatascience.net/viewpoints/index.xml](https://realworlddatascience.net/viewpoints/index.xml)
+### Blog
+[roald-arboel.com/blog/index.xml](https://roald-arboel.com/blog/index.xml)
 
